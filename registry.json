@@ -1,0 +1,167 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "name": "acme",
+  "homepage": "http://localhost:3000",
+  "items": [
+    {
+      "name": "pricing-demo",
+      "type": "registry:block",
+      "title": "pricing-demo",
+      "dependencies": ["next-transition-bar","lucide-react","@supabase/auth-helpers-nextjs","nodemailer"],
+      "registryDependencies": ["button","input","card","sonner","select","dialog","badge","dropdown-menu"],
+      "description": "A simple pricing-demo app.",
+      "files": [ 
+        {
+          "path": "app/api/invitation/[action]/route.ts",
+          "type": "registry:page",
+          "target": "app/api/invitation/[action]/route.ts"
+        },
+        {
+          "path": "app/api/invitation/accept/route.ts",
+          "type": "registry:page",
+          "target": "app/api/invitation/accept/route.ts"
+        },
+        {
+          "path": "app/api/invitation/decline/route.ts",
+          "type": "registry:page",
+          "target": "app/api/invitation/decline/route.ts"
+        },
+        {
+          "path": "app/api/send-invitation/route.ts",
+          "type": "registry:page",
+          "target": "app/api/send-invitation/route.ts"
+        },
+        {
+          "path": "app/auth/callback/route.ts",
+          "type": "registry:page",
+          "target": "app/auth/callback/route.ts"
+        },
+        {
+          "path": "app/auth/login/page.tsx",
+          "type": "registry:page",
+          "target": "app/auth/login/page.tsx"
+        },
+        {
+          "path": "app/auth/signup/page.tsx",
+          "type": "registry:page",
+          "target": "app/auth/signup/page.tsx"
+        },
+        {
+          "path": "app/dashboard/page.tsx",
+          "type": "registry:page",
+          "target": "app/dashboard/page.tsx"
+        },
+        {
+          "path": "app/dashboard/invite/page.tsx",
+          "type": "registry:page",
+          "target": "app/dashboard/invite/page.tsx"
+        },
+        {
+          "path": "app/invitation/thank-you/page.tsx",
+          "type": "registry:page",
+          "target": "app/invitation/thank-you/page.tsx"
+        },
+        {
+          "path": "app/layout.tsx",
+          "type": "registry:page",
+          "target": "app/layout.tsx"
+        },
+        {
+          "path": "app/page.tsx",
+          "type": "registry:page",
+          "target": "app/page.tsx"
+        },
+        {
+          "path": "components/dashboard/AccountSwitcher.tsx",
+          "type": "registry:component",
+          "target": "components/dashboard/AccountSwitcher.tsx"
+        },
+        {
+          "path": "components/dashboard/Dashboard.tsx",
+          "type": "registry:component",
+          "target": "components/dashboard/Dashboard.tsx"
+        },
+        {
+          "path": "components/dashboard/DashboardHeader.tsx",
+          "type": "registry:component",
+          "target": "components/dashboard/DashboardHeader.tsx"
+        },
+        {
+          "path": "components/dashboard/EditMemberDialog.tsx",
+          "type": "registry:component",
+          "target": "components/dashboard/EditMemberDialog.tsx"
+        },
+        {
+          "path": "components/dashboard/InviteForm.tsx",
+          "type": "registry:component",
+          "target": "components/dashboard/InviteForm.tsx"
+        },
+        {
+          "path": "components/dashboard/PendingInvites.tsx",
+          "type": "registry:component",
+          "target": "components/dashboard/PendingInvites.tsx"
+        },
+        {
+          "path": "components/dashboard/TeamMembers.tsx",
+          "type": "registry:component",
+          "target": "components/dashboard/TeamMembers.tsx"
+        },
+        {
+          "path": "components/dashboard/UsageStats.tsx",
+          "type": "registry:component",
+          "target": "components/dashboard/UsageStats.tsx"
+        },
+        {
+          "path": "components/pricing/PricingPlans.tsx",
+          "type": "registry:component",
+          "target": "components/pricing/PricingPlans.tsx"
+        },
+        {
+          "path": "config/plans.ts",
+          "type": "registry:block",
+          "target": "config/plans.ts"
+        },
+        {
+          "path": "hooks/useBase.ts",
+          "type": "registry:hook",
+          "target": "hooks/useBase.ts"
+        },
+        {
+          "path": "hooks/useDashboardPage.ts",
+          "type": "registry:hook",
+          "target": "hooks/useDashboardPage.ts"
+        },
+        {
+          "path": "hooks/useInviteMember.ts",
+          "type": "registry:hook",
+          "target": "hooks/useInviteMember.ts"
+        },
+        {
+          "path": "hooks/usePlanSelection.ts",
+          "type": "registry:hook",
+          "target": "hooks/usePlanSelection.ts"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "registry:block",
+          "target": "lib/utils.ts"
+        },
+        {
+          "path": "types/account.ts",
+          "type": "registry:block",
+          "target": "types/account.ts"
+        },
+        {
+          "path": "types/dashboard.ts",
+          "type": "registry:block",
+          "target": "types/dashboard.ts"
+        },
+        {
+          "path": "middleware.ts",
+          "type": "registry:block",
+          "target": "middleware.ts"
+        }
+      ]
+    }
+  ]
+}

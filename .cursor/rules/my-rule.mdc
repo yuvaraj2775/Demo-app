@@ -1,0 +1,20 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+ All components rendered correctly
+ Core interactions working (e.g., button clicks, form submits)
+ Validations working as expected (e.g., required fields, min/max rules)
+ Empty state and error states handled
+ Success states handled and confirmed
+ API calls triggered and responses handled properly
+ Feature is responsive on:
+ Mobile
+ Tablet
+ Desktop
+ Keyboard accessibility tested (tab navigation)
+ Visuals match the design spec (spacing, colors, fonts)
+ State management integrated (Redux, React state, etc.)
+
+ Connected features tested for regression
